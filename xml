@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/Buy1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="First Buying Price "
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/Coinbuy1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="First Coin Amount Bought "
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/Buy2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Second Buying Price "
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/Avg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Target Average Price "
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/Sell"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Selling Price"
+        android:inputType="numberDecimal" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="We will show...................... "
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/needbuy"
+        android:layout_width="wrap_content"
+        android:text="Required Extra Coins(how)."
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/buy2toavgpersentage"
+        android:layout_width="wrap_content"
+        android:text="Second buy to Avg price distance persentage."
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/buyspend"
+        android:layout_width="wrap_content"
+        android:text="Total Buying Cost."
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/totalsell"
+        android:layout_width="wrap_content"
+        android:text="Total Selling(profit) Value."
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/fee"
+        android:layout_width="wrap_content"
+        android:text="Spot Fee(0.125%buy+0.125%sell)."
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/profit"
+        android:layout_width="wrap_content"
+        android:text="Net Profit."
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/profitpersentage"
+        android:layout_width="wrap_content"
+        android:text="Profit Percentage."
+        android:layout_height="wrap_content" />
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:text="..................................................................."
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Thank you A R Shahraer for creating this amezing calculator."
+        android:layout_height="wrap_content" />
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:text="....................................................................."
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>
